@@ -1,0 +1,28 @@
+h1 {
+  color: bisque;
+  font-size: 2.5rem;
+}
+
+.counter {
+  border: 1px solid bisque;
+  border-radius: 8px;
+  background-color: antiquewhite;
+  max-width: 600px;
+  display: block;
+  margin: auto;
+  line-height: 3rem;
+}
+
+.btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #163b70;
+  color: bisque;
+}
+
+input {
+  margin-left: 20px;
+}
