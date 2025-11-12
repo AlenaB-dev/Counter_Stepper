@@ -3,6 +3,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+h3 {
+  margin: 0 auto;
+}
+
 .counter {
   border: 1px solid bisque;
   border-radius: 8px;
@@ -14,5 +18,7 @@ h1 {
 }
 
 input {
-  margin-left: 20px;
+  border: 1px solid #641a1a;
+  border-radius: 12px;
+  padding: 10px;
 }
