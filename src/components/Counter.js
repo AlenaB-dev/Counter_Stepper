@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Counter.module.css";
+import Button from "./Button";
 
 function Counter() {
   const { count, setCounter } = useState();
@@ -7,8 +8,7 @@ function Counter() {
     <>
       <h1>Counter and Stepper App</h1>
       <div className={styles.counter}>
-        <button className={styles.btn}>-</button>
-        <button className={styles.btn}>+</button>
+        <Button />
         <input placeholder="Inter your step"></input>
       </div>
     </>

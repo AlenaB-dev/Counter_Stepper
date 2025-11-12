@@ -1,0 +1,9 @@
+.btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #163b70;
+  color: bisque;
+}
