@@ -7,18 +7,9 @@ h3 {
   margin: 0 auto;
 }
 
-.counter {
-  border: 1px solid bisque;
-  border-radius: 8px;
-  background-color: antiquewhite;
-  max-width: 600px;
-  display: block;
-  margin: auto;
-  line-height: 3rem;
-}
-
 input {
   border: 1px solid #641a1a;
   border-radius: 12px;
   padding: 10px;
+  margin-top: 5px;
 }

@@ -13,13 +13,15 @@ function App() {
   return (
     <div className="App">
       <h1>Counter and Stepper App</h1>
-      <Counter count={count} step={step} setStep={setStep} />
-      <Button
-        up="+"
-        down="-"
-        onDecrement={decrementCount}
-        onIncrement={incrementCount}
-      />
+      <div className="counter-stepper">
+        <Button
+          up="+"
+          down="-"
+          onDecrement={decrementCount}
+          onIncrement={incrementCount}
+        />
+        <Counter count={count} step={step} setStep={setStep} />
+      </div>
     </div>
   );
 }
