@@ -18,9 +18,24 @@ input {
 }
 
 .stepInput {
-  width: 40px;
+  width: 120px;
   padding: 9px;
   font-size: 1.1rem;
   text-align: center;
   margin-left: 10px;
+}
+
+.resetBtn {
+  height: 2.6rem;
+  width: 6rem;
+  border-radius: 12px;
+  color: #07078b;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #07078b;
+}
+
+.resetBtn:hover {
+  background-color: #07078b;
+  color: bisque;
 }
