@@ -1,15 +1,26 @@
-h1 {
-  color: bisque;
-  font-size: 2.5rem;
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-h3 {
-  margin: 0 auto;
+.count {
+  margin: 0;
+  font-size: 2rem;
+  color: #071848;
+  width: 50px;
+  text-align: center;
 }
 
 input {
-  border: 1px solid #641a1a;
+  border: 1px solid #071848;
   border-radius: 12px;
-  padding: 10px;
-  margin-top: 5px;
+}
+
+.stepInput {
+  width: 40px;
+  padding: 9px;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-left: 10px;
 }

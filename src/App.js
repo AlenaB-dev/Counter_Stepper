@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import style from "./App.module.css";
 import Counter from "./components/Counter";
 import Button from "./components/Button";
 
@@ -11,15 +11,10 @@ function App() {
   const decrementCount = () => setCount(count - step);
 
   return (
-    <div className="App">
+    <div className={style.app}>
       <h1>Counter and Stepper App</h1>
-      <div className="counter-stepper">
-        <Button
-          up="+"
-          down="-"
-          onDecrement={decrementCount}
-          onIncrement={incrementCount}
-        />
+      <div className={style.stepper}>
+        <Button onDecrement={decrementCount} onIncrement={incrementCount} />
         <Counter count={count} step={step} setStep={setStep} />
       </div>
     </div>

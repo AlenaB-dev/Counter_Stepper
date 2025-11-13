@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: bisque;
+  font-size: 2.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid bisque;
+  border-radius: 8px;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 10px 30px;
+}

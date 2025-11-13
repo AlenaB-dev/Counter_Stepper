@@ -1,9 +1,25 @@
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
 .btn {
-  margin: 5px;
+  padding: 8px 12px;
+  font-size: 1rem;
   cursor: pointer;
+  border: none;
+  color: bisque;
+  background-color: #163b70;
+  margin-left: 5px;
+  border-radius: 12px;
 }
 
 .btn:hover {
-  background-color: #163b70;
-  color: bisque;
+  background-color: #165670;
+  color: #865d2c;
+}
+
+.icon {
+  height: 24px;
+  width: 26px;
 }
