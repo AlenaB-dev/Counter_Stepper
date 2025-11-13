@@ -1,0 +1,16 @@
+.reset {
+  margin: 10px;
+}
+.resetBtn {
+  height: 3rem;
+  width: 6rem;
+  border-radius: 12px;
+  color: #07078b;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.resetBtn:hover {
+  background-color: #07078b;
+  color: bisque;
+}
